@@ -1,0 +1,19 @@
+header-left {
+    background-color: rgb(81, 80, 80);
+    margin: 0;
+}
+
+.wrap {
+    margin: 2em;
+}
+
+ul {
+ background-color: black;
+ list-style: none;
+
+}
+
+aside-content    {
+    position: fixed;
+    right: 6px;
+}
