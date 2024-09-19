@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD131 Briggs Home Page</title>
+    <link rel="stylesheet" href="styles/base.css">
 </head>
     <body>
-        <header><h1>WDD131: Dynamic Web Funamentals - Dalin Briggs</h1>
+        <header>
+            <div title ="WDD131: Dynamic Web Funamentals - Dalin Briggs">
+                <h1>
+                    WDD131: Dynamic Web Funamentals - Dalin Briggs
+                </h1>
+            </div>
             <nav>
-                <ul>
+                <ul class="list1">
                     <li><a href="https://www.linkedin.com/in/dalin-briggs-345bb6198/">LinkedIn</a></li>
                     <li><a href="https://byui.instructure.com/">I-Learn</a></li>
                     <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng">Scripture</a></li>
@@ -19,30 +25,43 @@
     
         <main>
             <section class="Card">
-                <h3>About Me</h3>
-                    <p>My name is Dalin Briggs and I'm a father of 2 wonderful, yet spunky children, 
-                        Henry and Hazel. I have a wonderful wife, Klara, who has helped give me the push and support 
-                        to return to school. I'm 26 with an Associate in General Studies and have taken a break
-                        from school. I am returning in full swing and getting my Bachelor's
-                        in Software Development and Web Design. 
-                        When I get free time, I enjoy playing video games when the kids are in bed. 
-                        I'm a PC gamer who plays many games and cannot pick a favorite. 
+                <div title ="A little about myself">
+                    <h3>About Me</h3>
+                        <img class ="family-pic" title="Picture of my family" src ="/images/Briggs Picture.jpg" height="250" width="250">
+                            <p class="p1">
+                                My name is Dalin Briggs and I'm a father of 2 wonderful, yet spunky children, 
+                                Henry and Hazel. I have a wonderful wife, Klara, who has helped give me the push and support 
+                                to return to school. I'm 26 with an Associate in General Studies and have taken a break
+                                from school. I am returning in full swing and getting my Bachelor's
+                                in Software Development and Web Design. 
+                                When I get free time, I enjoy playing video games when the kids are in bed. 
+                                I'm a PC gamer who plays many games and cannot pick a favorite. 
+                            </p>
+                            <br>
+                </div>
+                <br>
+                <div>
+                    <img class="flag-pic" title="Flag of Idaho" src="/images/Idaho Flag.jpg" height="200" width="400">
+                    <p class="p3">Official Flag of Idaho</p>
+                    <p class="p2">Idaho, the land of potatoes. It's considered a desert to the United States, but it has
+                        an old rustic charm to it as you drive through and see the Great Teton Mountains. It's
+                        a safe place, hidden away from the world since it is not talked about other than potatoes. 
                     </p>
-            </section>
-            <section class="Card"><h3>Web Dev Resources</h3>
-                    <ul>
+                </div>
+                <div class="Card" title ="Web Dev Resources">
+                    <h3>Web Dev Resources</h3>
+                    <ul class="list2">
                         <li><a href="https://www.w3schools.com/">W3Schools</a></li>
                         <li><a href="https://www.codewars.com/">Code Wars</a></li>
                         <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
                     </ul>
-
+                </div>
             </section>
         </main>
 
         <footer>
-            <p>Dalin Briggs Idaho<span id="currentyear"></span></p>
-            <p id="lastModified"></p>
-
+            <p>©<span id="currentyear"></span> Dalin Briggs, United States, Idaho</p>
+            <p class="modif" id="lastModified"></p>
         </footer>
     </body>
 </html>
