@@ -95,10 +95,18 @@ h2{
 
 }
 
-img {
+#flag-pic {
     position: static;
     margin-top:20px;
     border-radius: 70px;
+}
+
+#family-pic{
+
+    position: static;
+    margin-top:20px;
+    border-radius: 70px;
+    
 }
 
 a:link, a:visited {
