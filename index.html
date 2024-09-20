@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD131 Briggs Home Page</title>
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
     <body>
-        <header>
-            <div title ="WDD131: Dynamic Web Funamentals - Dalin Briggs">
+        <header class="grid-container">
+            <div id="mainheader">
                 <h1>
                     WDD131: Dynamic Web Funamentals - Dalin Briggs
                 </h1>
             </div>
-            <nav>
-                <ul class="list1">
+            <nav id="navigation">
+                <ul class="navlinks">
                     <li><a href="https://www.linkedin.com/in/dalin-briggs-345bb6198/">LinkedIn</a></li>
                     <li><a href="https://byui.instructure.com/">I-Learn</a></li>
                     <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng">Scripture</a></li>
@@ -23,9 +24,9 @@
             </nav>  
         </header>
     
-        <main>
+        <main class="grid-container">
             <section class="Card">
-                <div title ="A little about myself">
+                <div id ="aboutme">
                     <h3>About Me</h3>
                         <img class ="family-pic" title="Picture of my family" src ="/images/Briggs Picture.jpg" height="250" width="250">
                             <p class="p1">
@@ -40,7 +41,7 @@
                             <br>
                 </div>
                 <br>
-                <div>
+                <div id="myhome">
                     <img class="flag-pic" title="Flag of Idaho" src="/images/Idaho Flag.jpg" height="200" width="400">
                     <p class="p3">Official Flag of Idaho</p>
                     <p class="p2">Idaho, the land of potatoes. It's considered a desert to the United States, but it has
@@ -48,7 +49,7 @@
                         a safe place, hidden away from the world since it is not talked about other than potatoes. 
                     </p>
                 </div>
-                <div class="Card" title ="Web Dev Resources">
+                <div class="Card" id ="resources">
                     <h3>Web Dev Resources</h3>
                     <ul class="list2">
                         <li><a href="https://www.w3schools.com/">W3Schools</a></li>
@@ -59,9 +60,11 @@
             </section>
         </main>
 
-        <footer>
-            <p>©<span id="currentyear"></span> Dalin Briggs, United States, Idaho</p>
-            <p class="modif" id="lastModified"></p>
+        <footer class="grid-container">
+            <div id="mainfooter">
+                <p>©<span id="currentyear"></span> Dalin Briggs, United States, Idaho</p>
+                <p id="lastModified"></p>
+            </div>
         </footer>
     </body>
 </html>
