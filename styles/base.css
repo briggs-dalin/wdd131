@@ -7,12 +7,14 @@ h1 {
     text-align: left;
     padding:20px;
     margin:40px;
+    display: flex;
+    flex:auto;
 
 }
 
-h3{
+h2{
     font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 40px;
     color:white;
     
 }
@@ -34,7 +36,7 @@ h3{
     background-color:gray;
     color: white;
     list-style: none;
-    font-family: "Consolas" , sans-serif;
+    font-family: "Inria Sans" , sans-serif;
     font-size: 20px;
     font: 1.5em sans-serif;
     padding: 20px;
@@ -53,7 +55,7 @@ h3{
     background-color:gray;
     color: white;
     list-style: none;
-    font-family: "Consolas" , sans-serif;
+    font-family: "Inria Sans" , sans-serif;
     font-size: 20px;
     font: 1.5em sans-serif;
     padding: 20px;
@@ -75,7 +77,7 @@ h3{
     margin: 2em;
     margin-left:5px;
     text-align: center;
-    font-family: "sans-serif" , "Consolas";
+    font-family: "Roboto" , "Consolas";
     
 }
 .p2{
@@ -84,11 +86,11 @@ h3{
     padding:10px;
     border-color: white;
     color: white;
-    font-family: "sans-serif" , "Consolas";
+    font-family: "Roboto" , "Consolas";
 }
 .p3{
  
-    font-family: "sans-serif" , "Consolas";
+    font-family: "Roboto" , "Consolas";
     color: white;
 
 }
@@ -136,6 +138,7 @@ font-size: 30px;
 }
 
 #mainheader {
+    max-width: none;
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -157,6 +160,7 @@ font-size: 30px;
     grid-row-end: 3;
     grid-column-start: 3;
     grid-column-end: 4;
+    color: white;
    
 }
 #mainfooter {
