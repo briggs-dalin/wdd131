@@ -21,16 +21,18 @@ button.addEventListener('click', function(){
         
         list.append(li);
 
+        deleteButton.addEventListener('click', function () {
+            list.removeChild(li);
+            input.focus();
+          });
+        
+        input.value = '';
+        input.focus();
+
         
 }})
 
-deleteButton.addEventListener('click', function () {
-    list.removeChild(li);
-    input.focus();
-  });
 
-input.value = '';
-input.focus();
 
 
 
