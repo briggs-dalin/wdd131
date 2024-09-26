@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+
+}
+
+header, main, footer{
+    padding-left: 20px;
+    margin: 1rem auto;
+    border: 5px solid #bbb;
+    background-color: #e6f2ff;
+    border-radius: 20px;
+    max-width: 100%;
+}
+header{
+    background-color: #182079;
+    color: white;
+}
+
+main{
+    display: grid;
+    
+    
+}
+
+a:link, a:visited {
+
+    color: rgb(255, 255, 255);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+  }
+
+.menu nav{
+    display: flex;
+    height:auto;
+}
+
+
+.temples img{
+    width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    
+    
+        
+      }
+
+ul{
+    list-style: none;
+}
+.menu {
+    display: none; /* Initially hidden */
+    background-color: #182079;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu.active {
+    display: block; /* Show when active */
+}
+#toggleButton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top:30px;
+    margin-right:20px;
+    font-size: 30px;
+    background-color: #182079;
+    color: white;
+    border:none;
+}
+figcaption{
+    padding-top:10px;
+    text-align: center;
+
+
+}
+

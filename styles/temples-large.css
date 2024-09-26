@@ -1,0 +1,55 @@
+@media screen and (min-width: 600px){
+    header{
+        background-color: rgb(63, 14, 91);
+        color: white;
+        font-family: sans-serif;
+        display: flex;
+        border-radius:10px;
+
+    }
+    .temples{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+        gap: 10px; /* Space between grid items */
+        
+
+    }
+    ul{
+
+        color: white;
+        text-decoration: none;
+        list-style: none;
+
+      }
+
+    .grid-container > div {
+        
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+        }
+    
+    nav ul li {
+        display:flex;
+        width: 100%;
+        height: auto;
+        }
+    #toggleButton{
+        display:none;
+        }
+    .mobile{
+        display:none
+        }
+    .menu{
+        display: flex;
+        text-align: center;
+        background-color: rgb(63, 14, 91);
+        border:none;
+        margin-left: 350px;
+        }
+        
+        
+    
+      
+     
+}

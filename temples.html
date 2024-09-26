@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Dalin Briggs - Picture Album">
+    <meta name="author" content="Dalin Briggs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Dalin Briggs - Picture Album</title>
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header class="grid-container">
+        <div id="mainheader">
+            <h1>Temple Album</h1>
+            <button id="toggleButton" class="mobile">☰</button>
+                <nav class="menu" id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Old</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Large</a></li>
+                    <li><a href="#">Small</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <h2 style="text-align: center;">Home</h2>
+            <div class="temples">
+                <figure>
+                    <img src="images/boise-temple.jpg" alt="Boise" style="width: 300px; height: 200px;">
+                    <figcaption>Boise Idaho Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bountiful-temple.jpg" alt="Bountiful" style="width: 300px; height: 200px;">
+                    <figcaption>Bountiful Utah Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/denver-temple.jpg" alt="Denver" style="width: 300px; height: 200px;">
+                    <figcaption>Denver Colorado Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/idaho-falls-temple.jpg" alt="Idaho Falls" style="width: 300px; height: 200px;">
+                    <figcaption>Idaho Falls Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/meridian-temple.jpg" alt="Meridian" style="width: 300px; height: 200px;">
+                    <figcaption>Meridian Idaho Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/pocatello-temple.jpg" alt="Pocatello" style="width: 300px; height: 200px;"> 
+                    <figcaption>Pocatello Idaho Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/provo-temple.jpg" alt="Provo" style="width: 300px; height: 200px;">
+                    <figcaption>Provo Utah Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rexburg-temple.jpg" alt="Rexburg" style="width: 300px; height: 200px;">
+                    <figcaption>Rexburg Idaho Temple</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/spokane-temple.jpg" alt="Spokane" style="width: 300px; height: 200px;">
+                    <figcaption>Spokane Washington Temple</figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class ="grid-container">
+        <div id="mainfooter">
+            <p>©<span id="currentyear"></span> Dalin Briggs, United States, Idaho</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
