@@ -1,7 +1,6 @@
+ 
 body{
     font-family: 'Roboto', sans-serif;
-    margin:0;
-    padding:0;
 
 }
 
@@ -11,18 +10,14 @@ header, main, footer{
     border: 5px solid #bbb;
     background-color: #e6f2ff;
     border-radius: 20px;
-    max-width: 100%;
 }
 header{
     background-color: #182079;
     color: white;
+
 }
 
-main{
-    display: grid;
-    
-    
-}
+
 
 a:link, a:visited {
 
@@ -33,20 +28,10 @@ a:link, a:visited {
     display: inline-flex;
   }
 
-.menu nav{
-    display: flex;
-    height:auto;
-}
+  a:hover{
+    text-decoration: underline;
+  }
 
-
-.temples img{
-    width: 100%; 
-    height: auto;
-    border-radius: 10px; 
-    
-    
-        
-      }
 
 ul{
     list-style: none;
@@ -56,12 +41,12 @@ ul{
     background-color: #182079;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-right:10px;
+    margin-right: 10px;
     border: 2px solid #ccc;
     border-radius: 5px;
     list-style: none;
+    font-size: 17px;
     text-align: center;
-    font-size: 30px;
 }
 
 .menu.active {
@@ -84,4 +69,13 @@ figcaption{
 
 
 }
+figure{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 
+}
+
+footer{
+    text-align: center;
+}
