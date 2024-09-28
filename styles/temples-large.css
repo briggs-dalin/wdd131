@@ -4,29 +4,25 @@
         color: white;
         font-family: sans-serif;
         border-radius:10px;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         padding-right: 12px;
 
     }
+
     .temples{
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
-        gap: 10px; /* Space between grid items */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
     }
 
 
-    h1{
-        grid-column: 1/2;
-    }
+    
 
     nav.menu {
 
         color: white;
         text-decoration: none;
         list-style: none;
-        grid-column: 3/4;
-        flex-direction: row;
-        
 
       }
 
@@ -42,6 +38,7 @@
     #toggleButton{
         display:none;
         }
+
     .mobile{
         
         display:none
@@ -51,8 +48,10 @@
         display: flex;
         background-color: rgb(63, 14, 91);
         border:none;
-        flex: 1 1 100%;
+        
         }
+    
+    
         
      
 }

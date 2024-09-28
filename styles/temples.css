@@ -37,7 +37,7 @@ ul{
     list-style: none;
 }
 .menu {
-    display: none; /* Initially hidden */
+    display: none;
     background-color: #182079;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -50,7 +50,7 @@ ul{
 }
 
 .menu.active {
-    display: block; /* Show when active */
+    display: block; 
 }
 #toggleButton{
     position: absolute;
@@ -77,5 +77,8 @@ figure{
 }
 
 footer{
+    text-align: center;
+}
+h2{
     text-align: center;
 }
