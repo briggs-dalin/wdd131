@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Dalin Briggs - Country Page">
+    <meta name="author" content="Dalin Briggs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Dalin Briggs - Country Page</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+</head>
+<body>
+    <header class="mainHeader">
+
+        <h1>Ireland</h1>
+
+    </header>
+
+    <main class="grid-container">
+  
+        <div class="ireland">
+            <picture>
+                <source srcset="images/ireland-large.webp" media="(min-width: 600px)">
+                <img src="images/ireland-small.webp" alt="Picture of an Ireland castle" width="335" height="425">
+            </picture>
+        </div>
+
+        <section id="data">
+            <h2>Data</h2>
+                <p>Area: 32,595 mi² </p>
+                <p>Population: 5.127 million</p>
+                <p>Capital: Dublin</p>
+                <p>Languages: English, Irish</p>
+                <p>Currency: Euro</p>
+                <p>Time Zone: GMT+1</p>
+                <p>Calling Code: +353</p>
+                <p>Internet TLD: .ie</p>   
+        </section>
+
+        <section id="weather">
+            <h2>Weather </h2>
+            <img src="images/weather-icon.svg" alt="Sun behind cloud" width="75px" height="75px">
+            <p>Temperature: 59°F</p>
+            <p>Conditions: Mostly Cloudy</p>
+            <p>Wind: 13mph</p>
+            <p>Wind Chill: <span id="windChill"></span></p>
+        </section>
+        
+    
+
+    </main>
+
+    <footer>
+        <div id="mainfooter"></div>
+            <p>©<span id="currentyear"></span> Dalin Briggs, United States, Idaho</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

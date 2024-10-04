@@ -1,0 +1,62 @@
+:root{
+    --primary-color:green;
+    --secondary-color:orange;
+    --heading-font:'Gill Sans', sans-serif;
+    --paragraph-font:'Franklin Gothic Medium', Arial;
+}
+
+.mainHeader{
+    text-align: center;
+    background-color: var(--primary-color);
+    border-bottom: var(--secondary-color) 20px;
+    color: white;
+    margin:10px;
+    padding:1px;
+    font-size: 25px;
+    
+}
+
+
+.grid-container picture{
+    display:grid;
+    place-items: center;
+    background-color: var(--primary-color);
+}
+#data{
+    text-align: center;
+    background-color: white;
+}
+
+#weather{
+    text-align: center;
+    background-color: white;
+}
+
+h1,
+h2{
+font-family: var(--heading-font);
+text-align: center;
+}
+
+p{
+    font-family: var(--paragraph-font) ;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+    padding:2px;
+}
+#weather img{
+    display: block;
+    margin:auto;
+}
+
+html{
+    background-color: var(--secondary-color);
+}
+
