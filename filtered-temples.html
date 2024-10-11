@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Dalin Briggs - Picture Album">
+    <meta name="author" content="Dalin Briggs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Dalin Briggs - Picture Album</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <div class="mainHeader">
+            <h1>Temple Album</h1>
+            <button id="toggleButton" class="mobile">☰</button>
+                <nav class="menu" id="menu">
+                    <ul>
+                        <li><a href="#" id="home">Home</a></li>
+                        <li><a href="#" id = "oldTemples">Old</a></li>
+                        <li><a href="#" id = newTemples>New</a></li>
+                        <li><a href="#" id="largeTemples">Large</a></li>
+                        <li><a href="#" id="smallTemples">Small</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <h2>Home</h2>
+            <div class="temple-grid">  
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="mainfooter">
+            <p>©<span id="currentyear"></span> Dalin Briggs, United States, Idaho</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

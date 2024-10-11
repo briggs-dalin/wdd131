@@ -1,0 +1,60 @@
+@media screen and (min-width: 600px){
+    .mainHeader{
+        background-color: rgb(63, 14, 91);
+        width:100%;
+        color: white;
+        font-family: sans-serif;
+        border-radius:10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    header{
+        background-color: rgb(63, 14, 91);
+    }
+
+    .temple-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        border-radius: 20px;
+        margin-right:15px;
+        margin-bottom:20px;
+    }
+
+
+    .grid-container > div {
+        
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+        }
+
+    #toggleButton{
+        display:none;
+        }
+
+    .mobile{
+        
+        display:none
+        }
+
+    .menu{
+
+        background-color: rgb(63, 14, 91);
+        border:none;
+        display: flex;
+        }
+    
+    nav ul {
+        display:flex;
+        flex-direction: row;
+    }
+        
+    h1{
+        padding-top:15px;
+    }
+    .temple-grid {
+        padding-bottom:20px;
+    }
+     
+}
