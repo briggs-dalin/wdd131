@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Dalin Briggs - Product Review Form">
+    <meta name="author" content="Dalin Briggs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <title>WDD 131 - Dynamic Web Fundamentals - Dalin Briggs - Product Review Form</title>
+</head>
+<body>
+    <header><h1>Product Review</h1></header>
+
+
+    <main>
+
+        <form method="get" action="review.html" >
+            <fieldset>
+                
+                <label for="productSelect">Product Name *</label>
+                    <select id="productSelect" name="product" required>
+                        <option value="" disabled selected>Select a Product ...</option>
+                    </select>
+                
+
+
+                <div class="rating">Overall Rating *
+
+                    <label><input type="radio" name="rating" value="one">&star; </label>
+                    <label><input type="radio" name="rating" value="two">&star;&star;</label>
+                    <label><input type="radio" name="rating" value="three">&star;&star;&star;</label>
+                    <label><input type="radio" name="rating" value="four">&star;&star;&star;&star;</label>
+                    <label><input type="radio" name="rating" value="five" required>&star;&star;&star;&star;&star;</label>
+
+                </div>
+
+                
+                <label>
+                    Date of Installation *<input type="date" name="installDate" required>
+                </label>
+
+                <div>Which features did you find useful in the product?
+                    (check all that apply)*</div>
+                
+                <label><input type="checkbox" name="durable" value="yes">Durability </label>
+                <label><input type="checkbox" name="useful" value="yes">Ease of Use </label>
+                <label><input type="checkbox" name="performance" value="yes">Performance </label>
+                <label><input type="checkbox" name="durable" value="yes">Durability </label>
+
+                <div>
+                    <label>Your Name (Optional) </label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+
+
+                <div>
+                    <label>Your Review (Optional) </label>
+                    <textarea name="review" rows="4" cols="55" placeholder="Write your review here..."></textarea>
+                </div>
+
+                <button type="submit">Leave Review</button>
+            </fieldset>
+        </form>
+
+
+    </main>
+    
+    <footer>
+        <p><strong>©<span id="currentyear"></span> Dalin Briggs, United States, Idaho</strong></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

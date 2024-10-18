@@ -1,0 +1,80 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Body text font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+}
+header {
+    background: #1E3A8A; /* Deep Blue for the header */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #FBBF24; /* Soft Yellow for links */
+    font-family: 'Montserrat', sans-serif; /* Navigation font */
+    text-decoration: none;
+}
+.banner {
+    background: #FBBF24; /* Soft Yellow for banners */
+    padding: 20px;
+    text-align: center;
+    color: #1E3A8A; /* Deep Blue text */
+}
+.section {
+    padding:10px;
+    background: #fff; /* White background for sections */
+    border: 1px solid #e5e7eb; /* Light gray border for sections */
+    margin:5px;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Headings font */
+    color: #1E3A8A; /* Deep Blue for headings */
+}
+blockquote {
+    font-family: 'Playfair Display', serif; /* Accent font for quotes */
+    font-style: italic;
+    margin: 20px;
+    padding: 10px;
+    border-left: 4px solid #1E3A8A;
+    background: #b7b7b8;
+}
+.game-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background: #dde0e3; /* Light gray background for game cards */
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1E3A8A; /* Deep Blue for footer */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+button {
+    background: #FBBF24; /* Soft Yellow for buttons */
+    color: #1E3A8A; /* Deep Blue text for buttons */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+body {
+    padding:20px;
+}
+
+.newsletter {
+    padding-bottom: 20px;
+}
+
