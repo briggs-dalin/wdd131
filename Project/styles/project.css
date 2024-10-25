@@ -33,7 +33,9 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
 }
-
+nav ul li a.active {
+    text-decoration: underline;
+}
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif; 
     color: #1E3A8A; 
@@ -48,7 +50,6 @@ h3{
     font-size: 30px;
     text-decoration: underline;
 }
-
 p {
     text-align: center;
     margin: 20px 20px 20px 20px;
@@ -57,7 +58,6 @@ p {
     padding:20px 20px 20px 20px;
     border-radius: 10px; 
 }
-
 footer p {
     margin:20px 0px -20px 0px;
     padding:0x 0px -20px 0px
@@ -70,31 +70,12 @@ footer {
     width: 100%;
     border-radius: 20px;
 }
-
 button {
     background: #FBBF24; 
     color: #1E3A8A; 
     border: none;
     padding: 10px 15px;
     cursor: pointer;
-}
-
-.newsletter {
-    padding-bottom: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-nav ul li a.active {
-    text-decoration: underline;
-    color: #FBBF24;
 }
 #gamesList {
     display: flex;
@@ -103,12 +84,10 @@ nav ul li a.active {
     background-color: #ffd97a;
     border-radius: 20px;
 }
-
 .game-card:hover {
     transform: scale(1.05); 
     background-color: #C5E1A5;
 }
-
 .game-image {
     max-width: 100%;
     height: auto;
@@ -196,7 +175,6 @@ nav ul li a.active {
 .submit-button:hover {
     background-color: #0056b3;
 }
-
 img{
     width: 80vh;
     height:45vh;
