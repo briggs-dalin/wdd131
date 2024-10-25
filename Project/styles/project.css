@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9fafb;
+    background-color: #031222;
     padding:20px;
 }
 .logo{
@@ -42,6 +42,7 @@ h1, h2, h3 {
 h2{
     font-size: 40px;
     text-align: center;
+    color: white;
 }
 h3{
     font-size: 30px;
