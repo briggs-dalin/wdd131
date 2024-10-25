@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Dalin Briggs - Project">
+    <meta name="author" content="Dalin Briggs">
+    <title>About</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><strong>Gaming Together</strong></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>About Gaming Together</h3>
+
+        <p>
+            At Gaming Together, we believe in the power of cooperative gaming to bring people closer together. 
+            Our mission is to provide a curated selection of games that are perfect for playing with 
+            friends, family, or partners. Whether you're seasoned gamers or new to the gaming world, 
+            we offer recommendations that cater to all skill levels.
+        </p>
+        
+        <h3>What We Do</h3>
+        <p>
+            We specialize in finding and recommending the best co-op games across various platforms.
+             Our team of gaming enthusiasts reviews and plays a wide range of titles, ensuring that 
+             our suggestions provide engaging and enjoyable experiences. From action-packed adventures to relaxing 
+             puzzle games, we have something for everyone.
+        </p>
+        
+        
+        <h3>Thank you for visiting!</h3>
+        <p>
+            We invite you to explore our game recommendations and share your feedback.
+            Subscribe to our newsletter for the latest updates, game releases, and special offers.
+            Let's embark on this gaming journey together!
+        </p>
+
+        <h3>Welcome to our game collection! We love hearing from our visitors.</h3>
+    
+        <div class="form-container">
+            <form action="subscribe.html" method="get">
+                <div class="form-field">
+                    <label for="name" >Name:</label>
+                    <input type="text" id="name" name="name" placeholder="First Name" required>
+                </div>
+                <div class="form-field">
+                    <label for="email" >Email:</label>
+                    <input type="email" id="email" name="email" placeholder="someone@gmail.com" required>
+                </div>
+                <div class="form-field">
+                    <label for="message" >Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Type here..." required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Leave Review</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>©<span id="currentyear"></span> Dalin Briggs, United States, Idaho</strong></p>
+        <p id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>
