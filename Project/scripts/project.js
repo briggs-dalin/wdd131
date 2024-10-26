@@ -5,6 +5,7 @@ yearSpan.textContent = currentYear;
 const lastModified = document.lastModified;
 document.getElementById('lastModified').textContent = `Last Modification: ${lastModified}`;
 
+
 const games = [
     { name: "Children of Morta", 
       description: "Children of Morta is a beautifully crafted action RPG that blends deep storytelling with engaging rogue-lite gameplay. Set in a mystical world filled with peril, players explore the vibrant landscapes of the Land of Morta, where the fate of the family of Bergsons rests in their hands. Each member of the Bergson family possesses unique abilities and strengths, allowing for diverse playstyles as you battle against an encroaching darkness that threatens their home. As you venture into procedurally generated dungeons, you’ll face a variety of formidable enemies and bosses, each requiring strategic thinking and skillful combat. The game emphasizes the importance of family bonds; as you progress, you can unlock new skills and upgrades for each character, making your choices meaningful and impactful.", 
@@ -57,8 +58,8 @@ function displayGames() {
         gameItem.classList.add("game-item");
 
         const gameName = document.createElement("h3");
-        gameName.textContent = game.name;
-        gameName.classList.add("game-name");
+          gameName.textContent = game.name;
+          gameName.classList.add("game-name");
 
         const purchaseLinks = [
           { link: game.purchaseLink1, platform: 'PC' },
@@ -68,7 +69,7 @@ function displayGames() {
         ];
 
         const purchaseButtons = purchaseLinks
-          .filter(p => p.link) // Only include links that exist
+          .filter(p => p.link) 
           .map(p => `<a href="${p.link}" target="_blank" class="purchase-button">Buy Now for ${p.platform}</a>`)
           .join('');
         
@@ -76,16 +77,11 @@ function displayGames() {
           <h3>${game.name}</h3>
           <img src="${game.image}" alt="${game.name}" loading="lazy" class="game-image">
           <p>${game.description}</p>
-          ${purchaseButtons}
-          
-`;
+          ${purchaseButtons}`;
         
-        gamesList.appendChild(gameItem);
+gamesList.appendChild(gameItem);
     });
 }
 
 displayGames();
-let reviewCount = localStorage.getItem('reviewCount') ? parseInt(localStorage.getItem('reviewCount')) : 0;
-reviewCount++;
-localStorage.setItem('reviewCount', reviewCount);
-document.getElementById('reviewCount').textContent = reviewCount;
+
